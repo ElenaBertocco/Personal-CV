@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head> <!--head contiene info sulla pagina e dice al browser come gestirla, es. qual è il titolo-->
+        <meta charset="utf-8"> <!--tutto il testo è codificato con UTF-8, include anche tutti i simboli internazionali e emoji-->
+        <title>💚 Pagina Personale di Elena</title>
+
+        <!--CSS code: style-->
+        <!-- <style>  
+            body {  /* Stile di body */
+                background-color:#EAF6F6;
+            }
+            hr {  /* Stile di tutte le linee orizzontali: si applica ogni volta che richiamo hr*/
+                background-color: #EAF6F6;
+                border-style: dotted none none none; /*top:dotted, gli altri 3 bordi none*/
+                /*border-width: 1;  di default è 1 px per ogni bordo*/
+                border-color: grey;/*colore dei puntini*/
+                border-width: 5px; /*larghezza dei puntini*/
+                width: 5%;/*larghezza di tutto il bordo: % dell'intera area*/
+            }
+            img{
+                height: 200px;
+            }
+        </style> QUESTO E' INTERNAL CSS; SOSTITUITO CON EXTERNAL CSS: IL FILE style.css  -->
+            <link rel="stylesheet" href="style.css">  
+
+    </head>
+    <body> <!-- quello che verrà scritto nella pagine -->
+        <table cellspacing = 20>
+            <tr>
+                <td><img src="Elena.JPG" alt="Elena Profile Picture"> <!--alt è il testo alternativo--></td>
+                <td>
+                    <h1>Elena Bertocco</h1>
+                    <p><em>Strategy Data Analyst in <strong><a href="https://pragroup.it/">PRA Group</a></strong></em></p> <!--<p>Paragraph tag: formatta il testo in un paragrafo; em:testo corsivo/b:bold/strong-->
+                </td>
+            </tr>  
+        </table>     
+             <!-- <a href = "https://">Hello</a> -->
+            <p>Lavoro da due anni come analista nel team Strategy all'interno del Data&Analytics Department. 
+        <hr>
+        <h3>Esperienze lavorative</h3>     <!--per avere la stessa indentazione devo usare html tables-->
+        <table cellspacing = "10"> 
+            <thead>
+                <tr>
+                    <th>Date</th> <!--header-->
+                    <th>Lavoro</th>
+                </tr>
+            </thead>
+            <tr> <!--tr = table row: 2 or more cells -->
+                <td>ago 2021 </td> <!--td = table data, 1st cell-->
+                <td>Strategy Data Analyst in Pra Group</td><!--2nd cell-->
+            </tr>  
+            <tr>
+                <td>mag 2021 - ago 2021</td>
+                <td>Strategy Internship in Pra Group</td>
+        </table>
+        <h3>Formazione</h3>
+        <ul>
+            <li>Corso di Laurea in Banking and Finance <strong>Università di Padova</strong></li>
+            <li>Erasmus in Economics <strong>Hohenheim Universität</strong></li>
+            <li>Laurea in Economia <strong>Università di Padova</strong></li>
+            <li>Diploma di Ragioneria <strong>ITC Calvi</strong></li>
+        </ul><!--ul = unordered list-->
+        <hr>
+
+            </tr>
+        
+        <hr>
+        <h3>Competenze</h3>
+        <table cellspacing = "10">
+            <tr>
+                <td>SQL</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Excel</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>⭐⭐⭐</td>
+                <td>PowerBI</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+        </table>
+        <hr>
+        <a href="hobbies.html">Hobby❤️</a>
+        <br>
+        <a href="contatti.html">Contatti</a>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+/*SINTAX:
+selector {property:value;}
+selector = who? body, image,ecc.
+propery = size, color
+value = how? red, blue
+ex. h1 {color:red}
+*/
+
+body {  /* Stile di body */
+    background-color:#EAF6F6;
+}
+
+hr {  /* Stile di tutte le linee orizzontali: si applica ogni volta che richiamo hr*/
+    background-color: #EAF6F6;
+    border-style: dotted none none none; /*top:dotted, gli altri 3 bordi none*/
+    /*border-width: 1;  di default è 1 px per ogni bordo*/
+    border-color: grey;/*colore dei puntini*/
+    border-width: 5px; /*larghezza dei puntini*/
+    width: 5%;/*larghezza di tutto il bordo: % dell'intera area*/
+}
+
+img{
+    height: 200px;
+}
+
+h1{
+    color: #66bfbf;
+}
